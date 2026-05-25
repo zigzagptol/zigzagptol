@@ -3,43 +3,103 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My About Site</title>
+  <title>ZigZagdelivery</title>
 
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
+      margin: 0;
       font-family: Arial, sans-serif;
-      max-width: 700px;
-      margin: 60px auto;
-      padding: 20px;
+      background: #0f172a;
+      color: white;
       line-height: 1.6;
-      color: #222;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 80px 20px;
     }
 
     h1 {
-      font-size: 42px;
+      font-size: 56px;
       margin-bottom: 10px;
     }
 
+    h2 {
+      margin-top: 50px;
+      color: #60a5fa;
+    }
+
+    p {
+      font-size: 18px;
+      color: #cbd5e1;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 12px;
+      margin-top: 20px;
+    }
+
+    a {
+      color: #60a5fa;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
     .links a {
-      margin-right: 15px;
+      margin-right: 20px;
+      font-weight: bold;
     }
   </style>
 </head>
 
 <body>
-  <h1>ZigZag Delivery</h1>
 
-  <p>
-    Hello! We are ZigZag Delivery.
-  </p>
+  <div class="container">
 
-  <p>
-    This is our website which is under construction.
-  </p>
+    <h1>Zigzagptol</h1>
 
-  <div class="links">
-    <a href="https://github.com/">GitHub</a>
-    <a href="https://linkedin.com/">LinkedIn</a>
+    <p>
+      Welcome to my personal website.
+    </p>
+
+    <div class="links">
+      <a href="https://github.com/">GitHub</a>
+      <a href="https://linkedin.com/">LinkedIn</a>
+    </div>
+
+    <h2>About Me</h2>
+
+    <div class="card">
+      <p>
+        Write a short introduction about yourself here.
+      </p>
+    </div>
+
+    <h2>Projects</h2>
+
+    <div class="card">
+      <p>
+        Project 1 — Description
+      </p>
+    </div>
+
+    <div class="card">
+      <p>
+        Project 2 — Description
+      </p>
+    </div>
+
   </div>
+
 </body>
 </html>
