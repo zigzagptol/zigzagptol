@@ -22,7 +22,7 @@
       padding: 0;
       box-sizing: border-box;
     }
-    .profile-pic {
+    /*.profile-pic {
   width: min(180px, 45vw);
   aspect-ratio: 1 / 1;
   object-fit: cover;
@@ -35,7 +35,20 @@
   box-shadow: 0 0 25px rgba(255,122,0,0.35);
 
   display: block;
+}*/
+    .profile-pic {
+  width: clamp(140px, 35vw, 260px);
+  height: auto;
+
+  object-fit: contain;
+
+  margin-bottom: 30px;
+
+  display: block;
+
+  filter: drop-shadow(0 0 20px rgba(255,122,0,0.35));
 }
+  
     @media (max-width: 768px) {
 
   .hero {
